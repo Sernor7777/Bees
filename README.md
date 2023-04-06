@@ -1,2 +1,4 @@
 # Bees
 A simple fun program I made with a friend for another friend that shows you 5 random pictures of bees.
+
+This program was written in python and what it does is show you 5 random pictures of bees out of 8472 possible pictures. Note that not every picture is a bee as I downloaded all the pictures using another script from a website and not all pictures there were bees even with the search bees meaning it's possible to find pictures that are not bees. How the program works is that at startup the program automatically reads 5 lines from the txt file "images.txt" each line is a url to the image and the program downloads the image from the url. Once you click the button "Generate New Images" you are greeted with another 5 random pictures of bees using the same method as before and also deleting the previous 5 images to not take up a lot of space.
